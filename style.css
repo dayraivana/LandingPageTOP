@@ -72,12 +72,65 @@ a {
     color: #E5E7EB; 
 }
 
-.boton1 {
-    padding: 5px 15px;
+
+
+button {
+    cursor: pointer;
+    padding: 5px 25px;
     margin-right: auto;
-    text-decoration: none;
+
     border-radius: 7px;
     background-color: #3882f6;
     color: #E5E7EB; 
+    font-weight: bold;
+    border: none;
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 48px;
+    margin: 0;  
+    background-color: #f9faf8;
+}
+
+.title1 {
+    text-align: center;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 70px 0 0 0 ;
+
 
 }
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 70px;
+}
+
+.info, .image2, .owner {
+    width: 250px;
+    text-align: center;
+    color: #1F2937;
+ }
+
+ .image2 {
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    height: 250px;
+ }
+
+ .owner {
+    font-size: smaller;
+    text-decoration: none;
+    color: #404142;
+    
+ }
+
