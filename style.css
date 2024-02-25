@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 48px;
+    padding: 20px 15%;
     margin: 0;
 
 }
@@ -131,7 +131,6 @@ button {
     font-size: smaller;
     text-decoration: none;
     color: #404142;
-    text-align: right;
     
  }
 
@@ -149,12 +148,13 @@ button {
 
  .maintext {
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 36px;
  }
 
  .author {
     font-weight: bold;
+    text-align: right;
  }
 
  .four  {
@@ -182,4 +182,11 @@ button {
  .title2 {
     font-weight: bold;
     font-size: 24px;
+ }
+
+ .fifth {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 2%;
  }
